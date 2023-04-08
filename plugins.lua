@@ -1,6 +1,6 @@
 local plugins = {
   ["nvim-treesitter/nvim-treesitter"] = {
-     opts = {
+     override_options = {
        ensure_installed = {
          -- defaults 
          "vim",
@@ -23,7 +23,7 @@ local plugins = {
      },
    },
   ["williamboman/mason.nvim"] = {
-    opts = {
+    override_options = {
        ensure_installed = {
          "lua-language-server",
          "html-lsp",
@@ -36,12 +36,6 @@ local plugins = {
      },
    },
   ["neovim/nvim-lspconfig"] = {
---     dependencies = {
---       "jose-elias-alvarez/null-ls.nvim",
---       config = function()
---         require "custom.configs.null-ls"
---       end,
---     },
      config = function()
         require "plugins.configs.lspconfig"
         require "custom.configs.lspconfig"

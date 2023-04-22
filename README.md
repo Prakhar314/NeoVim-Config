@@ -1,13 +1,3 @@
-Custom configuration for [NvChad](https://github.com/NvChad/NvChad)
+# Example_config
 
-## Install
-
-Clone this repository as `$HOME/.config/nvim/lua/custom`. NvChad will overwrite `chadrc` with `lua/custom/chadrc.lua`.
-
-```
-git clone https://github.com/jeromescuggs/chadrc $HOME/.config/nvim/lua/custom 
-```
-
-## Sources
-- [jeromescuggs/chadrc](https://github.com/jeromescuggs/chadrc)
-- [NvChad Docs](https://nvchad.com/docs/)
+This can be used as an example custom config for NvChad, this branch is a minimal one. Do check the feature_full branch if you need all the ease in your config.
